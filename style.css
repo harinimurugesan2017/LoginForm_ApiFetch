@@ -1,0 +1,39 @@
+
+body{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.container{
+    background-color: aliceblue;
+    border:1px solid black;
+    height: 500px;
+    width:500px;
+    left: 150px;
+    border-radius: 5px;
+    padding: 20px;
+   position: absolute;
+}
+
+.name, .email ,.btn{
+    margin: 30px; 
+    
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%; /* Make input fields full width */
+    padding: 10px; /* Add padding to input fields */
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+}
+#btns{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: pink;
+   border-radius: 10px;
+}
+#loginmsg{
+    text-align: center;
+}
